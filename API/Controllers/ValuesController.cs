@@ -6,7 +6,6 @@ namespace API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-
         [HttpGet]
         public IActionResult Get()
         {
