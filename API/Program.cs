@@ -30,6 +30,8 @@ namespace API
 
             app.MapControllers();
 
+            app.MapGet("", () => "OK");
+
             app.Run();
         }
     }
